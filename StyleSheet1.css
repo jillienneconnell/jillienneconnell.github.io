@@ -1,0 +1,101 @@
+﻿body {
+    font-family: 'Arial', sans-serif;
+    /*margin: 0;
+    padding: 0;*/
+    background-color: mediumseagreen; /* Dark blue background */
+    color: #fff; /* White text */
+    align-content: center;
+}
+
+.header {
+    background-color: seagreen;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.header h1 {
+    margin: 0;
+    font-family: 'Georgia', serif; /* Fancy font for the header */
+    font-weight: bold;
+}
+
+.header table {
+    margin-top: 20px;
+}
+
+.header td {
+    padding: 0 15px;
+}
+
+.header a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.header a:hover {
+    color: greenyellow; /* change color on hover, e.g., gold */
+}
+
+h2 {
+    color: #fff;
+    text-align: center;
+    font-family: 'Georgia', serif; /* Fancy font for the headers */
+    font-weight: bold;
+    font-size: 25px;
+}
+h3 {
+    color: #fff;
+    text-align: center;
+    font-family: 'Georgia', serif; /* Fancy font for the headers */
+    font-weight: bold;
+    font-size: 25px;
+}
+h4 {
+    color: #fff;
+    text-align: center;
+    font-family: 'Georgia', serif; /* Fancy font for the headers */
+    font-weight: bold;
+    font-size: 25px;
+}
+h5 {
+    color: #fff;
+    text-align: center;
+    font-family: 'Georgia', serif; /* Fancy font for the headers */
+    font-weight: bold;
+    font-size: 25px;
+}
+
+p {
+    line-height: 1.6;
+    color: #fff;
+    align-content: center;
+}
+
+/* Style the links in the body */
+a {
+    color: #ffd700;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Add some spacing between the projects and skills */
+body > h2 {
+    margin-top: 30px;
+}
+
+/* Style the project and skill items */
+body > p {
+    margin: 0;
+    padding: 5px 0;
+}
+
+/* Add some bottom margin to the last skill item */
+body > p:last-child {
+    margin-bottom: 20px;
+}
