@@ -71,17 +71,18 @@ h5 {
 p {
     line-height: 1.6;
     color: #fff;
-    align-content: center;
+    text-align: center;
 }
 
 /* Style the links in the body */
 a {
-    color: #ffd700;
+    color: white;
     text-decoration: none;
 }
 
 a:hover {
     text-decoration: underline;
+    color: greenyellow;
 }
 
 /* Add some spacing between the projects and skills */
