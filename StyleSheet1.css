@@ -1,17 +1,19 @@
 ﻿body {
     font-family: 'Arial', sans-serif;
-    /*margin: 0;
-    padding: 0;*/
+    margin: 0;
+    padding: 0;
     background-color: mediumseagreen; /* Dark blue background */
     color: #fff; /* White text */
     align-content: center;
 }
+
 
 .header {
     background-color: seagreen;
     color: #fff;
     padding: 20px;
     text-align: center;
+    padding-top: 120px;
 }
 
 .header h1 {
@@ -22,6 +24,7 @@
 
 .header table {
     margin-top: 20px;
+    float: right;
 }
 
 .header td {
@@ -38,6 +41,22 @@
 .header a:hover {
     color: greenyellow; /* change color on hover, e.g., gold */
 }
+
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile-photo {
+    max-width: 100px; /* Adjust the width of the photo */
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    border-radius: 50%;
+}
+
 
 h2 {
     color: #fff;
@@ -74,6 +93,8 @@ p {
     text-align: center;
 }
 
+
+
 /* Style the links in the body */
 a {
     color: white;
@@ -99,4 +120,26 @@ body > p {
 /* Add some bottom margin to the last skill item */
 body > p:last-child {
     margin-bottom: 20px;
+}
+
+.content-container {
+    max-width: 800px; /* Adjust the maximum width as needed */
+    margin: 0 auto;
+    overflow: hidden; /* Clear the float */
+}
+
+.image-container {
+    float: left;
+    margin-right: 20px; /* Adjust the margin as needed */
+}
+
+.image-container img {
+    width: 100px; /* Adjust the width of the image as needed */
+    height: auto;
+    border-radius: 50%; /* Optional: round the image */
+    margin-top: 30px;
+}
+
+.text-container {
+    overflow: hidden; /* Clear the float */
 }
